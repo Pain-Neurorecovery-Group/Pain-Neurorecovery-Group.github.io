@@ -28,7 +28,7 @@ const Links = ({
               nav
               to={routes[link]}
             >
-              {link}
+              {link === 'join-us' ? 'Join us' : link}
             </Link>
           )
         ))
