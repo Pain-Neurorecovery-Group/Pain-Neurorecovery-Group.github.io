@@ -10,7 +10,7 @@ const HeroContainer = ({
   const query = useStaticQuery(
     graphql`
       query {
-        hero: file(relativePath: { eq: "Logo.png" }) {
+        hero: file(relativePath: { eq: "Logo2.png" }) {
           childImageSharp {
             gatsbyImageData(
               quality: 70,
