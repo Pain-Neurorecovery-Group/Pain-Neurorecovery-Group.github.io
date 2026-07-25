@@ -8,11 +8,13 @@
 .home__landing > div {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  align-items: flex-end;
+  height: 65vh;
   justify-content: center;
   max-width: 960px;
   min-height: 450px;
   padding: 3rem 1.5rem;
+  text-align: right;
   width: 100%;
 }
 .home__landing h1,
@@ -26,6 +28,7 @@
 
 .home__landing-links {
   display: flex;
+  justify-content: flex-end;
   margin: 0 -0.5rem;
   margin-top: 2rem;
 }
