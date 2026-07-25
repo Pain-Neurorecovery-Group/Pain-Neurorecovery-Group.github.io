@@ -31,7 +31,9 @@ const AboutContainer = () => {
       ? (
         <About
           html={query.markdown.html}
-          image={query.markdown.frontmatter.image.childImageSharp.gatsbyImageData}
+          image={query.markdown.frontmatter.image
+            ? query.markdown.frontmatter.image.childImageSharp.gatsbyImageData
+            : null}
           title={query.markdown.frontmatter.title}
         />
       )

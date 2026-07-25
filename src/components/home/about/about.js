@@ -14,11 +14,13 @@ const About = ({
   <section className="about">
     <h2>{title}</h2>
     <div className="about__inner">
-      <GatsbyImage
-        alt={title}
-        className="about__portrait"
-        image={image}
-      />
+      {image && (
+        <GatsbyImage
+          alt={title}
+          className="about__portrait"
+          image={image}
+        />
+      )}
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   </section>
@@ -26,8 +28,12 @@ const About = ({
 
 About.propTypes = {
   html: PropTypes.node.isRequired,
-  image: PropTypes.shape({}).isRequired,
+  image: PropTypes.shape({}),
   title: PropTypes.string.isRequired,
+};
+
+About.defaultProps = {
+  image: null,
 };
 
 export default About;

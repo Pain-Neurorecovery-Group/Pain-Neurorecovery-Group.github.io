@@ -1,5 +1,4 @@
 ---
-image: ../images/Logo.png
 title: About us
 ---
 

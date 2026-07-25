@@ -26,6 +26,7 @@ const Links = ({
               buttonStyle
               key={link}
               nav
+              style={link === 'join-us' ? { textTransform: 'none' } : undefined}
               to={routes[link]}
             >
               {link === 'join-us' ? 'Join us' : link}

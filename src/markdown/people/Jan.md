@@ -5,4 +5,3 @@ name: Jan Rosner
 order: 1
 title: Senior Consultant Neurologist, Associate Professor
 ---
-.....
