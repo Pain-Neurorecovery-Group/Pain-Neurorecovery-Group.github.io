@@ -7,10 +7,10 @@ module.exports = {
     title: 'The Pain-Neurorecovery-Group',
     // List of link buttons to include on the landing image. Delete this field
     // and/or all entires if you do not want these links.
-    // options: 'contact', 'opportunities', 'people', 'publications', 'research'
+    // options: 'contact', 'join-us', 'people', 'publications', 'research'
     primaryLinks: [
       'research',
-      'opportunities',
+      'join-us',
     ],
     // List of PubMed IDs to include on the publication page. Delete this field
     // and/or all entires if you do not want the publication page.

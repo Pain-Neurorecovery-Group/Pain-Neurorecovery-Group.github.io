@@ -5,6 +5,7 @@ import Link from '../../link/link';
 
 const routes = {
   contact: '/#contact',
+  'join-us': '/#join-us',
   opportunities: '/#opportunities',
   people: '/people',
   publications: '/publications',

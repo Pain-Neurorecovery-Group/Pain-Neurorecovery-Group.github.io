@@ -1,7 +1,8 @@
 ---
+email: rasbec@rm.dk
 image: ../../images/people/hofrath.png
-name: Rasmus Hammer Bech
+name: Rasmus H. Bech
 order: 3
-title: Medical Intern
+title: Research Year Student
 ---
 ....

@@ -7,8 +7,6 @@ import Links from './links';
 import './landing.css';
 
 const Landing = ({
-  author,
-  description,
   links,
 }) => (
   <Hero
@@ -17,12 +15,10 @@ const Landing = ({
   >
     <div>
       <h1>
-        The Lab of Dr.
-        {' '}
-        {author}
+        Pain & Neurorecovery Group
       </h1>
       <p className="home__landing-description">
-        {description}
+        Hammel Neurocenter, Aarhus University
       </p>
       <Links links={links} />
     </div>
@@ -30,8 +26,6 @@ const Landing = ({
 );
 
 Landing.propTypes = {
-  author: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   links: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 

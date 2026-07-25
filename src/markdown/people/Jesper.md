@@ -1,8 +1,8 @@
 ---
 email: jesperfischer@clin.au.dk
 image: ../../images/people/blumine.png
-name: Jesper Fischer Ehmsen
+name: Jesper F. Ehmsen
 order: 2
-title: PhD student
+title: PhD Candidate
 ---
 ....
